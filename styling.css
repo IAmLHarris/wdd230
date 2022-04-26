@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+
+
+header{
+    font-family: "Zen Kurenaido", sans-serif;
+    font-size: 32px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+
+}
