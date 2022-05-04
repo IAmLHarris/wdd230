@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
 
+html{
+    margin: 10px 100px;
+}
 
 header{
     font-family: "Zen Kurenaido", sans-serif;
@@ -8,26 +11,33 @@ header{
     display: grid;
     background-color: blueviolet;
     align-items:center;
-    grid-template-columns: repeat(6, 1fr) ;
-    
+    justify-items: center;
+    grid-template-columns: repeat(10, 1fr) ;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 img{
+    
     min-height: 200px;
     max-height: 500px;
 }
 
 .index-img{
-    align-items: center;
+    
     grid-area: 1/1/span 1 / span 1  ;
     
 }
 
 header h1 {
-    grid-area: 1/2 /span 1 /span 2 ;
+    grid-area: 1/3 /span 1 /span 4 ;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
 
+}
+
+footer{
+    text-align: center;
 }
